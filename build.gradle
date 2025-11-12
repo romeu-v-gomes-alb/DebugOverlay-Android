@@ -33,9 +33,9 @@ allprojects {
 ext {
     compileSdkVersion = 34
 
-    minSdkVersion = 29
+    minSdkVersion = 28
     targetSdkVersion = 34
-    
+
     // http://tools.android.com/tech-docs/new-build-system/tips
     // this is for faster build on CI servers since it does not perform preDex
     preDexLibs = !project.hasProperty('disablePreDex')
